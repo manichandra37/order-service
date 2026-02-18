@@ -24,6 +24,7 @@ public class Order {
     private UUID id;
 
     //@Column(nullable = false, length = 32)
+    
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
 
